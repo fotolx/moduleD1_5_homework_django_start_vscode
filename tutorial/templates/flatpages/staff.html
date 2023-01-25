@@ -1,0 +1,9 @@
+{% extends 'flatpages/default.html' %}
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+{% block content %}
+<h1 style="font-family:'Courier New',Courier,monospace;font-size:46px;">
+    {{ flatpage.title }}</h1>
+{{ flatpage.content }}
+{% endblock content %}
